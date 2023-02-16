@@ -3,7 +3,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/freshkhao
+    destination: /home/ubuntu
 hooks:  
   ApplicationStart:
     - location: applicationstart.sh
